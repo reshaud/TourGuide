@@ -6,16 +6,16 @@ package com.example.android.tourguide;
 
 public class LocationData {
     private int img;
-    private String title;
-    private String descrip;
+    private int title;
+    private int descrip;
 
     public LocationData(){
         img = 0;
-        title = "";
-        descrip = "";
+        title = 0;
+        descrip = 0;
     }
 
-    public LocationData(int img, String title, String descrip){
+    public LocationData(int img, int title, int descrip) {
         this.img = img;
         this.title = title;
         this.descrip = descrip;
@@ -25,11 +25,11 @@ public class LocationData {
         return img;
     }
 
-    public String getDescrip() {
+    public int getDescrip() {
         return descrip;
     }
 
-    public String getTitle() {
+    public int getTitle() {
         return title;
     }
 }

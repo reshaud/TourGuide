@@ -25,21 +25,28 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         switch (position)
         {
             case 0:
+                return new ScenicSpotsFragment();
+            case 1:
+                return new HistoricSitesFragment();
+            case 2:
                 return new RestaurantsFragment();
             default:
                 return new BeachesFragment();
         }
     }
 
-    //Return total number of pages (Should be 4 for this project)
     @Override
     public int getCount() {
-        return 2;
+        return 4;
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
         if(position == 0){
+            return mContext.getString(R.string.scenic_spots);
+        } else if (position == 1) {
+            return mContext.getString(R.string.historic_sites);
+        } else if (position == 2) {
             return mContext.getString(R.string.restaurant);
         }
         else {

@@ -1,19 +1,13 @@
 package com.example.android.tourguide;
 
-import android.provider.ContactsContract;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
-
-import static android.R.attr.data;
-import static android.R.attr.splitMotionEvents;
 
 /**
  * Created by Reshaud Ally on 1/22/2017.
@@ -75,7 +69,14 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         @Override
         public void onClick(View v) {
             if(v.getId() == moreInfo.getId()){
-                Toast.makeText(v.getContext(),"Icon Clicked",Toast.LENGTH_SHORT).show();
+                if (descripView.getVisibility() == View.VISIBLE) {
+                    descripView.setVisibility(View.GONE);
+                    moreInfo.setImageResource(R.drawable.ic_keyboard_arrow_down_black_36dp);
+                } else if (descripView.getVisibility() == View.GONE) {
+                    descripView.setVisibility(View.VISIBLE);
+                    moreInfo.setImageResource(R.drawable.ic_keyboard_arrow_up_black_36dp);
+                }
+
             }
 
         }

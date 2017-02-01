@@ -1,8 +1,39 @@
 <resources>
-    <string name="app_name">Welcome To Barbados</string>
-    <string name="restaurant">Restaurants</string>
+    <string name="app_name">TourGuide - Barbados</string>
+    <string name="restaurant">Dining</string>
     <string name="beaches">Beaches</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scenic_spots">Scenic Spots</string>
+    <string name="historic_sites">Historic Sites</string>
+    <string name="chefette">Chefette</string>
+    <string name="chefette_text">One of the most popular fast food restaurants in Barbados</string>
+    <string name="cin_cin">Cin Cin</string>
+    <string name="cin_cin_text">Offering Mediterranean-style cuisine with a Caribbean twist and a great ocean view of the West Coast a must go to restaurant in Barbados</string>
+    <string name="cliff">The Cliff</string>
+    <string name="cliff_text">Rated four and a half stars on trip advisor The Cliff is a must visit for any visitor</string>
+    <string name="champers">Champers</string>
+    <string name="champers_text">If seafood is your favourite then Champers is the place to go</string>
+    <string name="bathsheba">Bathsheba</string>
+    <string name="bathsheba_text">It is breathtakingly beautiful; wide white sand beach stretches along a dramatic coastline of striking rock formations against which the Atlantic rollers break in cascades of foam. What at first glance look like huge boulders washed up on the beach are actually rock formations broken away from ancient coral reef!</string>
+    <string name="browns_beach">Browns Beach</string>
+    <string name="browns_beach_text">Brownes Beach is one of the largest of Barbados beaches, stretching from The Boatyard in the north to Needham\'s Point in the south.\nLocated just on the outskirts of the capital city Bridgetown, the waters here are quite calm and so are ideal for swimming and sea bathing. A lifeguard is on duty at the beach.</string>
+    <string name="bottom_bay">Bottom Bay</string>
+    <string name="bottom_bay_text">Always a popular picnic spot, it is also becoming a popular place to live and a number of homes are being built on the tops of the cliffs overlooking the beach and ocean. People who live there report spotting turtles and whales in the waters below the rocks.\nBathing here is not recommended, as the waves are very strong, and great care should be shown by those who choose to do so.</string>
+    <string name="surfers_point">Surfer\'s Point</string>
+    <string name="surfers_point_text">Located on the south east coast of Barbados this beach is, as the name implies, a favourite spot for surfing. However it\'s not just board surfing that\'s popular here.... Surfer\'s Point also has perfect conditions for windsurfing, kitesurfing, boogie boarding and kayaking.</string>
+    <string name="heroes_gallery">Heroes Gallery</string>
+    <string name="heroes_gallery_text">The Barbados National Heroes Gallery and the Barbados Museum of Parliament are housed in the historic West Wing of the Parliament Buildings in the heart of the capital city of Bridgetown.\n\nThe Barbados National Heroes Gallery traces the lives and immense contributions made by the ten National Heroes of Barbados.</string>
+    <string name="cotton_tower">Cotten Tower</string>
+    <string name="cotton_tower_text">Cotton Tower signal station is located in the eastern parish of St. Joseph. It was built in the 19th century by the British Military and was one of several signal stations across the island</string>
+    <string name="morgan_lewis_windmill">Morgan Lewis Windmill</string>
+    <string name="morgan_lewis_windmill_text">Morgan Lewis is one of the only two intact and restored sugar mills in the Caribbean. The other is at Betty\'s Hope Estate on one of our sister islands, Antigua.</string>
+    <string name="samlord_castle">Sam Lord\'s Castle</string>
+    <string name="samlord_castle_text">Located in the parish of St.Philip, Sam Lord\'s Castle was a beautiful Georgian mansion built in 1820 by the notorious buccaneer Samuel Hall Lord, known as \'Sam Lord\'.</string>
+    <string name="animal_flower_cave">Animal Flower Cave</string>
+    <string name="animal_flower_cave_text">The Animal Flower Cave is located at the most northerly point of Barbados in the parish of St.Lucy.\n\nThe name \"Animal Flower Cave\" comes from the sea anemones found in the pools of the cave.</string>
+    <string name="farley_hill">Farley Hill</string>
+    <string name="farley_hill_text">Breathtaking scenery, set in the grounds of the once regal Farley Hill house.  A mansion in ruins, tucked away in a forest of mahogany trees, high up on a hill overlooking the rugged Atlantic coast, Farley Hill is an ideal spot to picnic, escape into nature, hide in the shade of a comforting tree and to simply stare out to sea. It is also a spot favoured by visitors for getting married!</string>
+    <string name="hackleton_cliff">Hackleton\'s Cliff</string>
+    <string name="hackleton_cliff_text">Hackleton\'s Cliff, in the parish of St.Joseph, rises almost perpendicularly within a few miles of the coastline and reaches a height of one thousand feet above sea-level.\n\nAccording to legend, the cliff is named after a man who committed suicide by riding his horse off the cliff.</string>
+    <string name="cherry_tree_hill">Cherry Tree Hill</string>
+    <string name="cherry_tree_hill_text">Approximately 850 feet above sea-level, this spot offers an excellent view of the "Scotland District" which covers the parish of St.Andrew and is named after the Patron Saint of Scotland.It is believed that the name "Cherry Tree Hill" originated from the large number of cherry trees which once existed at this location</string>
 </resources>
